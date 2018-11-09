@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background-color: #0555a7;
+}
+.background {
+    background-color: #629d9c;
+    background-image: url("../images/hangman.png");
+    background-blend-mode: multiply;
+}
+
+#new-game-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: grey;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px;
+    border-radius: 40px;
+    box-shadow: 0 8px #5f5f5e;
+    margin-top: 20px;
+}
+
+#new-game-button:hover {
+    box-shadow: 0 3px #5f5f5e;
+    top:2px;
+}
+
+#new-game-button:active {
+    box-shadow: 0 0 #5f5f5e;
+    top:6px;
+}
+
+#placeholder-section {
+    background-color: #0483fb;
+}
+
+#placeholders {
+    letter-spacing: 6px;
+    font-size: 45px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+.col-12-col-md-4-text-center-py-5 {
+    margin-bottom: 0;
+}
