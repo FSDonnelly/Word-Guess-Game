@@ -1,6 +1,7 @@
 body {
     color: white;
-    background-color: #0555a7;
+    background-color: green;
+    margin-top: 0;
 }
 .background {
     background-color: #629d9c;
@@ -57,4 +58,8 @@ h3 {
 }
 .col-12-col-md-4-text-center-py-5 {
     margin-bottom: 0;
+}
+
+.jumbotron {
+    margin-top: 0;
 }
