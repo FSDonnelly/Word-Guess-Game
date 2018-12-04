@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: white;
-    background-color: #0555a7;
+    background-color: green;
+    margin-top: 0;
 }
 .background {
     background-color: #629d9c;
@@ -45,6 +50,7 @@ body {
 
 h1 {
     font-size: 50px;
+    font-family: fantasy;
 }
 
 h2 {
@@ -53,4 +59,11 @@ h2 {
 
 h3 {
     font-size: 25px;
+}
+.col-12-col-md-4-text-center-py-5 {
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    margin-top: 0;
 }
